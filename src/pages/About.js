@@ -3,6 +3,8 @@ import React from "react";
 function About() {
   return (
     <div>
+      <h1>About Me</h1>
+      
       <p>Hello! My name is Seth Martineau and I'm a 26 year old graduate from the University of
       Utah. I am currently enrolled in a coding bootcamp because I wanted a career change. Coding so far has been
       challenging and rewarding. I hope to learn more and am able to use these skills I learn to better myself for
