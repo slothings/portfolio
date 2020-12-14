@@ -13,23 +13,23 @@ function Portfolio() {
     <divportfolio>
 
       <div1 class="card-deck auto p-3 text-center">
-        <div class="card bg-primary">
-          <img src={resume} class="card-img-top" alt="Resume"></img>
+        <div class="card " className="lavendar">
+          <img src={resume} class="card-img-top embed-responsive embed-responsive-16by9" alt="Resume"></img>
           <div class="card-body text-center">
             <h5 class="card-title text-center">Resume</h5>
             <p><a class="card-text text-center" href="./ResumePDF.pdf">View</a></p>
           </div>
         </div>
         <div class="card bg-warning">
-          <img src={smartestAmongUs} class="card-img-top" alt="Smartest Among Us"></img>
+          <img src={smartestAmongUs} class="card-img-top embed-responsive embed-responsive-16by9" alt="Smartest Among Us"></img>
           <div class="card-body text-center">
             <h5 class="card-title text-center">Smartest Among Us</h5>
             <p><a class="card-text text-center" href="https://the-smartest-amoung-us.herokuapp.com/">Live Site</a></p>
             <p><a class="card-text text-center" href="https://github.com/slothings/the-smartest-among-us">GitHub Repository</a></p>
           </div>
         </div>
-        <div class="card bg-success">
-          <img src={qrAidCodes} class="card-img-top" alt="QR-Aid-Codes"></img>
+        <div class="card" className="lavendar">
+          <img src={qrAidCodes} class="card-img-top embed-responsive embed-responsive-16by9" alt="QR-Aid-Codes"></img>
           <div class="card-body text-center">
             <h5 class="card-title text-center">QR-Aid-Codes</h5>
             <p><a class="card-text text-center" href="https://diegopie.github.io/QR-aid-Codes/">Live Site</a></p>
@@ -47,7 +47,7 @@ function Portfolio() {
       </div1>
 
       <div2 class="card-deck auto p-3 text-center">
-        <div class="card bg-primary">
+        <div class="card" className="lavendar">
           <img src={noteTaker} class="card-img-top" alt="Note Taker"></img>
           <div class="card-body text-center">
             <h5 class="card-title text-center">Note Taker</h5>
