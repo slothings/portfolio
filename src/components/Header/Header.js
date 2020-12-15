@@ -10,7 +10,7 @@ class Header extends Component {
     const pathname = path.charAt(0).toUpperCase() + path.slice(1)
     return (
       <div>
-        <h1>{pathname}</h1>
+        <h1 class="m-0 p-2 text-center text-white lavendar">{pathname}</h1>
       </div>
     );
   }

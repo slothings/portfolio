@@ -28,3 +28,10 @@ code {
 .overcast {
   background: #9099a2;
 }
+
+.selfie {
+  height: auto; 
+  width: auto; 
+  max-width: 700px; 
+  max-height: 700px;
+}
