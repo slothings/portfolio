@@ -6,6 +6,6 @@ React Portfolio is a repository where I created my own personal mobile responsiv
 
 ![Application landing page](reactPortfolio.JPG)
 
-[Portfolio](https://slothings.github.io/react-portfolio/) is hosted on GitHub Pages
+[React Portfolio](https://slothings.github.io/react-portfolio/) is hosted on GitHub Pages
 
 This application was authored by [Seth Martineau](https://github.com/slothings)
