@@ -16,10 +16,10 @@ function App() {
           <Navbar />
           <Header />
           <Switch>
-            <Route exact path="/about" component={About} />
-            <Route exact path="/portfolio" component={Portfolio} />
-            <Route exact path="/contact" component={Contact} />
-            <Redirect from="*" to="/about" />
+            <Route exact path="/react-portfolio/about" component={About} />
+            <Route exact path="/react-portfolio/portfolio" component={Portfolio} />
+            <Route exact path="/react-portfolio/contact" component={Contact} />
+            <Redirect from="*" to="/react-portfolio/about" />
           </Switch>
           <Footer />
         </div>
