@@ -6,10 +6,11 @@ class Header extends Component {
     super(props);
   }
   render() {
-    const path = this.props.location.pathname.slice(1);
+    const path = this.props.location.pathname.slice(1)
+    const pathname = path.charAt(0).toUpperCase() + path.slice(1)
     return (
       <div>
-        <h1>{path}</h1>
+        <h1>{pathname}</h1>
       </div>
     );
   }

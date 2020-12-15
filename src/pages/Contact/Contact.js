@@ -4,7 +4,7 @@ function Contact() {
   return (
     <divcontact>
 
-      <div class="card list-group text-center pt-3">
+      <div class="card list-group text-center pt-3 overcast">
 
         <a class="pb-3" href="https://github.com/slothings">GitHub</a>
 

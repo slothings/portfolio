@@ -4,15 +4,15 @@ import { Link } from "react-router-dom";
 function Navbar() {
   return (
     <divnav className="navbar navbar-expand-lg navbar-light dusty">
-      <Link className="navbar-brand text-white p-3" to="/">
+      <Link className="navbar-brand text-white p-3" to="/about">
         Seth Martineau
       </Link>
       <div>
         <ul className="navbar-nav">
           <li className="nav-item">
             <Link
-              to="/"
-              className= {window.location.pathname === "/" ? "nav-link active" : "nav-link"} class="text-white p-3"
+              to="/about"
+              className= {window.location.pathname === "/about" ? "nav-link active" : "nav-link"} class="text-white p-3"
             >
               About
             </Link>

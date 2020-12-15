@@ -1,5 +1,5 @@
 body, html {
-  background-color: #d5d5d5;
+  background: #d5d5d5;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
@@ -14,17 +14,17 @@ code {
 }
 
 .paper {
-  background-color: #d5d5d5;
+  background: #d5d5d5;
 }
 
 .dusty {
-  background-color: #96858f;
+  background: #96858f;
 }
 
 .lavendar {
-  background-color: #6d7993;
+  background: #6d7993;
 }
 
 .overcast {
-  background-color: #9099a2;
+  background: #9099a2;
 }
