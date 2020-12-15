@@ -7,6 +7,7 @@ import noteTaker from "../../images/noteTaker.JPG";
 import teamProfileGenerator from "../../images/teamProfileGenerator.JPG";
 import passwordGenerator from "../../images/passwordGenerator.JPG";
 import workDayScheduler from "../../images/workDayScheduler.JPG";
+import resumePDF from "../../images/ResumePDF.pdf";
 
 function Portfolio() {
   return (
@@ -17,7 +18,7 @@ function Portfolio() {
           <img src={resume} class="card-img-top" alt="Resume"></img>
           <div class="card-body text-center text-white lavendar">
             <h5 class="card-title text-center">Resume</h5>
-            <p><a class="card-text text-center text-white" href="./ResumePDF.pdf">View</a></p>
+            <p><a class="card-text text-center text-white" href={resumePDF}>View</a></p>
           </div>
         </div>
         <div class="card">
