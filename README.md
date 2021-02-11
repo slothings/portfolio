@@ -4,7 +4,7 @@
 
 React Portfolio is a repository where I created my own personal mobile responsive portfolio using React. 
 
-![Application landing page](reactPortfolio.JPG)
+![Application landing page](src/img/seth-avatar.png)
 
 [React Portfolio](https://slothings.github.io/react-portfolio/) is hosted on GitHub Pages
 
