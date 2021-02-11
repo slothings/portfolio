@@ -1,30 +1,28 @@
-import React from "react";
-import { HashRouter as Router, Route, Redirect, Switch } from "react-router-dom";
-import About from "./pages/About/About.js";
-import Portfolio from "./pages/Portfolio/Portfolio.js";
-import Contact from "./pages/Contact/Contact.js";
-import Navbar from "./components/Navbar/Navbar";
-import Header from "./components/Header/Header";
-import Footer from "./components/Footer/Footer";
-// import './App.css';
+import React, { useEffect } from 'react'
+import Particles from './components/layouts/Particles'
+import Header from './components/pages/Header'
+import About from './components/pages/About'
+import Works from './components/pages/Works'
+import Contact from './components/pages/Contact'
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 function App() {
+
+  useEffect(() => {
+    AOS.init({
+      duration: 750,
+      once: true
+    })
+  }, [])
+
   return (
-    <div>
-      <Router basename={process.env.PUBLIC_URL}>
-        <div>
-          <Navbar />
-          <Header />
-          <Switch>
-            <Route exact path="/about" component={About} />
-            <Route exact path="/portfolio" component={Portfolio} />
-            <Route exact path="/contact" component={Contact} />
-            <Redirect from="*" to="/about" />
-            <Route component={About} />
-          </Switch>
-          <Footer />
-        </div>
-      </Router>
+    <div className="App">
+      <Header />
+      <Particles />
+      <About />
+      <Works />
+      <Contact />
     </div>
   );
 }
