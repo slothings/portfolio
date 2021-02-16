@@ -14,6 +14,7 @@ function App() {
       duration: 750,
       once: true
     })
+// eslint-disable-next-line
   }, [])
 
   return (

@@ -1,5 +1,5 @@
 import React from 'react'
-import { contact, section5Title, social } from '../../profile'
+import { contact, social, section5Title } from '../../profile'
 
 const Contact = () => {
 
@@ -12,8 +12,8 @@ const Contact = () => {
           </div>
         </center>
         <div className="container">
-          <div className="git-cont row">
-            <div className="col-12 col-sm-6 half">
+          <div>
+            {/* <div className="col-12 col-sm-6 half">
               <form action={contact.contactUrl ? contact.contactUrl : "https://formspree.io"} method={contact.contactUrl ? "POST" : "GET"}>
                 <input type="text" id="fname" name="firstname" placeholder="Your name" required></input>
                 <input type="mail" id="mailid" name="Email" placeholder="Email Address" required></input>
@@ -21,12 +21,13 @@ const Contact = () => {
                 <textarea id="msg" name="message" placeholder="Message" required></textarea>
                 <button style={{ cursor: 'pointer' }} type="submit"><label style={{ cursor: 'pointer' }} id="not-dark">Send Message</label></button>
               </form>
-            </div>
-            <div className="col-12 col-sm-6 half">
-              <p className="lead">
-                {contact.pitch}
-              </p>
+            </div> */}
+            <div>
+              <br></br>
               <center>
+                <p className="lead">
+                  {contact.pitch}
+                </p>
                 <div className="inline-block">
                   {social.linkedin && <a title="Visit Linkedin profile" rel="noopener noreferrer" target="_blank" href={social.linkedin}><i className="fab fa-linkedin"></i></a>}
                   {social.github && <a title="Visit Github profile" rel="noopener noreferrer" target="_blank" href={social.github}><i className="fab fa-github"></i></a>}<br />

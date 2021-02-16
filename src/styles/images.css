@@ -1,26 +1,27 @@
 /* Add your profile image here */
 .Photo{
-    background-image: url('../img/seth-avatar.png');
+  background-image: url('../img/seth-avatar.png');
 }
 /* Projects Photo */
 #project1{
-    background-image: url('../img/get-pet-vet.JPG');
-    cursor: none;    
+  background-image: url('../img/resume.png');
+  cursor: none;    
 }
 #project2{
-    background-image: url('../img/the-smartest-among-us.png');
-    cursor: none;
+background-image: url('../img/get-pet-vet.JPG');
+cursor: none;    
 }
 #project3{
-    background-image: url('../img/qr-aid-codes.gif');
-    cursor: none;
-}
-/* Misc Activities photo */
-#misc1{
-  background-image: url('../img/resume.png');
+  background-image: url('../img/the-smartest-among-us.png');
   cursor: none;
 }
+#project4{
+  background-image: url('../img/qr-aid-codes.gif');
+  cursor: none;
+}
+/* Misc Activities photo */
+
 /* Contact form parallax effect image */
 .parallax{
-    background-image: url('https://images.pexels.com/photos/691668/pexels-photo-691668.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
+  background-image: url('https://images.pexels.com/photos/691668/pexels-photo-691668.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
 }

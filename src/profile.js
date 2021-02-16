@@ -24,7 +24,7 @@ const skillsBar = [
     value: 75
   }, {
     name: "Command Line",
-    value: 70
+    value: 90
   }, {
     name: "CSS",
     value: 75
@@ -33,77 +33,83 @@ const skillsBar = [
     value: 85
   }, {
     name: "Git",
-    value: 75
+    value: 90
   }, {
     name: "Handlebars",
-    value: 70
+    value: 75
   }, {
     name: "Heroku",
     value: 75
   }, {
     name: "HTML",
-    value: 85
+    value: 90
   }, {
     name: "Javascript",
-    value: 75
+    value: 90
   }, {
     name: "JQuery",
-    value: 70
+    value: 80
   }, {
     name: "MongoDB",
-    value: 75
+    value: 80
   }, {
     name: "Mongoose",
-    value: 85
+    value: 80
   }, {
     name: "MySQL",
     value: 75
   }, {
     name: "Node",
-    value: 70
+    value: 80
   }, {
     name: "React",
-    value: 75
+    value: 90
   }, {
     name: "Passport",
     value: 85
   },
 ]
 // Projects
-const section3Title = "Projects"
+const section3Title = "Portfolio"
 const projects = [
   {
     id: "project1",
+    name: "Resume",
+    description: ["My current resume"],
+    url: "https://drive.google.com/file/d/161wuigjwGEKLS_rWN84rr4vTDAXKfLe7/view?usp=sharing"
+  },
+  {
+    id: "project2",
     name: "GetPetVet",
     description: ["An application for your pet, vet, and yourself, involving a simple video chat."],
     url: "https://evening-stream-63366.herokuapp.com/"
   },
   {
-    id: "project2",
+    id: "project3",
     name: "The Smartest Among Us",
     description: [`A simple trivia site based on the pop culture phenom "Among Us".`],
     url: "https://the-smartest-amoung-us.herokuapp.com/"
   },
   {
-    id: "project3",
+    id: "project4",
     name: "QR-Aid Codes",
-    description: ["Plan a raid sesh with your gamer friends and send them a QR Code to add it to their phone calendar."],
+    description: ["Plan a raid session with your gamer friends and send them a QR Code to add it to their phone calendar."],
     url: "https://diegopie.github.io/QR-aid-Codes/"
   }
 ]
 // Miscellaneous Activities
-const section4Title = "Resume"
-const miscellaneous = [
-  {
-    id: "misc1",
-    name: "Resume",
-    url: "https://drive.google.com/file/d/1Mx83KJ6WixSzfHFXLRQKQFV6yp2kSJjX/view?usp=sharing"
-  }
-]
+// const section4Title = ""
+// const miscellaneous = [
+//   {
+//     id: "misc1",
+//     name: "",
+//     url: ""
+//   }
+// ]
 // Contact
 const section5Title = "Contact"
 const contact = {
-  pitch: "You can reach me at these portals.",
+  pitch: "seth.r.martineau@gmail.com",
   copyright: "Seth Martineau",
   contactUrl: ''
 }
@@ -114,4 +120,4 @@ const social = {
   // resume:
 }
 
-export { header, background, about, skillsBar, projects, miscellaneous, contact, social, section2title, section3Title, section4Title, section5Title }
+export { header, background, about, skillsBar, projects, contact, social, section2title, section3Title , section5Title}
