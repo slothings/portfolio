@@ -1,8 +1,8 @@
-# React Portfolio
+# Portfolio
 
 ![GitHub top language](https://img.shields.io/github/languages/top/slothings/react-portfolio)
 
-React Portfolio is a repository where I created my own personal mobile responsive portfolio using React. 
+Portfolio is a repository where I created my own personal mobile responsive portfolio using React. 
 
 ![Application landing page](src/img/seth-avatar.png)
 
