@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/react-portfolio/static/css/main.5b4d26ef.chunk.css",
-    "main.js": "/react-portfolio/static/js/main.24156198.chunk.js",
-    "main.js.map": "/react-portfolio/static/js/main.24156198.chunk.js.map",
-    "runtime-main.js": "/react-portfolio/static/js/runtime-main.07a1bd65.js",
-    "runtime-main.js.map": "/react-portfolio/static/js/runtime-main.07a1bd65.js.map",
-    "static/css/2.ec02d681.chunk.css": "/react-portfolio/static/css/2.ec02d681.chunk.css",
-    "static/js/2.75abcb44.chunk.js": "/react-portfolio/static/js/2.75abcb44.chunk.js",
-    "static/js/2.75abcb44.chunk.js.map": "/react-portfolio/static/js/2.75abcb44.chunk.js.map",
-    "index.html": "/react-portfolio/index.html",
-    "static/css/2.ec02d681.chunk.css.map": "/react-portfolio/static/css/2.ec02d681.chunk.css.map",
-    "static/css/main.5b4d26ef.chunk.css.map": "/react-portfolio/static/css/main.5b4d26ef.chunk.css.map",
-    "static/js/2.75abcb44.chunk.js.LICENSE.txt": "/react-portfolio/static/js/2.75abcb44.chunk.js.LICENSE.txt",
-    "static/media/images.css": "/react-portfolio/static/media/the-smartest-among-us.d87932de.png",
-    "static/media/up.b0e165ff.png": "/react-portfolio/static/media/up.b0e165ff.png"
+    "main.css": "/portfolio/static/css/main.100c4255.chunk.css",
+    "main.js": "/portfolio/static/js/main.278ed809.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.278ed809.chunk.js.map",
+    "runtime-main.js": "/portfolio/static/js/runtime-main.8fed2963.js",
+    "runtime-main.js.map": "/portfolio/static/js/runtime-main.8fed2963.js.map",
+    "static/css/2.ec02d681.chunk.css": "/portfolio/static/css/2.ec02d681.chunk.css",
+    "static/js/2.75abcb44.chunk.js": "/portfolio/static/js/2.75abcb44.chunk.js",
+    "static/js/2.75abcb44.chunk.js.map": "/portfolio/static/js/2.75abcb44.chunk.js.map",
+    "index.html": "/portfolio/index.html",
+    "static/css/2.ec02d681.chunk.css.map": "/portfolio/static/css/2.ec02d681.chunk.css.map",
+    "static/css/main.100c4255.chunk.css.map": "/portfolio/static/css/main.100c4255.chunk.css.map",
+    "static/js/2.75abcb44.chunk.js.LICENSE.txt": "/portfolio/static/js/2.75abcb44.chunk.js.LICENSE.txt",
+    "static/media/images.css": "/portfolio/static/media/the-smartest-among-us.d87932de.png",
+    "static/media/up.b0e165ff.png": "/portfolio/static/media/up.b0e165ff.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.07a1bd65.js",
+    "static/js/runtime-main.8fed2963.js",
     "static/css/2.ec02d681.chunk.css",
     "static/js/2.75abcb44.chunk.js",
-    "static/css/main.5b4d26ef.chunk.css",
-    "static/js/main.24156198.chunk.js"
+    "static/css/main.100c4255.chunk.css",
+    "static/js/main.278ed809.chunk.js"
   ]
 }
