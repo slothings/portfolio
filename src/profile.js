@@ -120,4 +120,4 @@ const social = {
   // resume:
 }
 
-export { header, background, about, skillsBar, projects, contact, social, section2title, section3Title , section5Title}
+export { header, background, about, skillsBar, projects, contact, social, section2title, section3Title , section5Title }
