@@ -9,7 +9,7 @@ const background = {
 // About Me
 const section2title = "About Me"
 const about = {
-  paragraph: `Hello! My name is Seth Martineau and I'm a 26 year old graduate from the University of Utah.
+  paragraph: `Hello! My name is Seth Martineau and I'm a 27 year old graduate from the University of Utah.
     I just recently completed a full stack web development course from the University of Utah because I wanted a career change.
     Coding so far has been challenging and rewarding.
     I hope to learn more and am able to use these skills to better myself for future employment.`
