@@ -18,55 +18,55 @@ const about = {
 const skillsBar = [
   {
     name: "Bootstrap",
-    value: 85
+    value: 90
   }, {
     name: "Bulma",
     value: 75
   }, {
     name: "Command Line",
-    value: 90
+    value: 95
   }, {
     name: "CSS",
-    value: 75
+    value: 85
   }, {
     name: "Express",
     value: 85
   }, {
     name: "Git",
-    value: 90
+    value: 95
   }, {
     name: "Handlebars",
-    value: 75
+    value: 85
   }, {
     name: "Heroku",
     value: 75
   }, {
     name: "HTML",
-    value: 90
+    value: 95
   }, {
     name: "Javascript",
-    value: 90
+    value: 95
   }, {
     name: "JQuery",
-    value: 80
+    value: 90
   }, {
     name: "MongoDB",
-    value: 80
+    value: 85
   }, {
     name: "Mongoose",
     value: 80
   }, {
     name: "MySQL",
-    value: 75
+    value: 85
   }, {
     name: "Node",
-    value: 80
+    value: 85
   }, {
     name: "React",
-    value: 90
+    value: 95
   }, {
     name: "Passport",
-    value: 85
+    value: 90
   },
 ]
 // Projects
